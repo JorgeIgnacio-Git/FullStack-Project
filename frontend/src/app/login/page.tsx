@@ -1,9 +1,15 @@
 "use client";
-import React from 'react';
+
+import { useRouter } from 'next/navigation';
 
 const Login = () => {
+
+    const router = useRouter();
+
     const handleGoogleLogin = () => {
-        window.location.href = 'http://localhost:3001/auth/google';
+        //Redirige a una ruta que funciona como intermediario
+        router.push('/api/auth/google');
+
     };
 
     return (
