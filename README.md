@@ -1,4 +1,4 @@
-# ProyectoLogin
+# FullStack-Project
 
 Este repositorio contiene una arquitectura **fullstack** con dos aplicaciones principales: un frontend realizado en **Next.js** y un backend realizado en **NestJS**. El propósito central del proyecto es implementar un flujo de autenticación utilizando Google OAuth, permitiendo a los usuarios iniciar sesión de forma segura.
 
