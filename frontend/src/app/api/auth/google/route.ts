@@ -17,6 +17,11 @@
  * 🛡️ **Buenas prácticas**
  * - Utiliza variables de entorno (`process.env`) para las URLs y secretos sensibles.
  * - Si necesitas agregar lógica extra (validaciones, logs, etc.), hazlo dentro de la función antes de redirigir.
+ * 
+ *  
+ *  * Lo otro es que podemos usar varios recursos, no solo GET, tambien podemos usar POST, PUT, DELETE, etc.
+ *  * Esto nos permite crear una API RESTful completa.
+ *  * En este caso, estamos usando GET porque solo necesitamos redirigir al usuario a la URL de autenticación de Google. 
  */
 
 import { NextRequest } from "next/server";
